@@ -1,11 +1,18 @@
-import React from 'react';
+import React from 'react'
 
-export default function Nav(){
-    return(
-      <>
-      <nav>
-    
-       </nav> 
-      </>
-    );
+const Nav = () => {
+  return (
+      <nav className="Nav-bar">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">MENU</a></li>
+          <li><a href="">RESERVATION</a></li>
+          <li><a href="">ORDER ONLINE</a></li>
+          <li><a href="">LOGIN</a></li>
+        </ul>
+      </nav>
+  )
 }
+
+export default Nav;
